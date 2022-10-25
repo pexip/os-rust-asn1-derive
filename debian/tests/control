@@ -1,0 +1,14 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test asn1_derive 0.12.2 --all-targets --all-features
+Features: test-name=rust-asn1-derive:@
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test asn1_derive 0.12.2 --all-targets 
+Features: test-name=librust-asn1-derive-dev:default
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test asn1_derive 0.12.2 --all-targets --no-default-features
+Features: test-name=librust-asn1-derive-dev:
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
