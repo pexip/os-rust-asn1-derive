@@ -36,10 +36,10 @@ Provides:
  librust-asn1-derive+default-dev (= ${binary:Version}),
  librust-asn1-derive-0-dev (= ${binary:Version}),
  librust-asn1-derive-0+default-dev (= ${binary:Version}),
- librust-asn1-derive-0.12-dev (= ${binary:Version}),
- librust-asn1-derive-0.12+default-dev (= ${binary:Version}),
- librust-asn1-derive-0.12.2-dev (= ${binary:Version}),
- librust-asn1-derive-0.12.2+default-dev (= ${binary:Version})
+ librust-asn1-derive-0.13-dev (= ${binary:Version}),
+ librust-asn1-derive-0.13+default-dev (= ${binary:Version}),
+ librust-asn1-derive-0.13.0-dev (= ${binary:Version}),
+ librust-asn1-derive-0.13.0+default-dev (= ${binary:Version})
 Description: #[derive] support for asn1 - Rust source code
  This package contains the source for the Rust asn1_derive crate, packaged by
  debcargo for use with cargo and dh-cargo.
