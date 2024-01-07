@@ -10,9 +10,10 @@
 # See Cargo.toml.orig for the original contents.
 
 [package]
-edition = "2018"
+edition = "2021"
+rust-version = "1.56.0"
 name = "asn1_derive"
-version = "0.12.2"
+version = "0.15.5"
 authors = ["Alex Gaynor <alex.gaynor@gmail.com>"]
 description = "#[derive] support for asn1"
 license = "BSD-3-Clause"
@@ -22,14 +23,10 @@ repository = "https://github.com/alex/rust-asn1"
 proc-macro = true
 
 [dependencies.proc-macro2]
-version = "1.0"
+version = "1.0.60"
 
 [dependencies.quote]
 version = "1.0"
 
 [dependencies.syn]
-version = "1.0.58"
-features = [
-    "parsing",
-    "extra-traits",
-]
+version = "2.0"
