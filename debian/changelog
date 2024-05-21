@@ -1,3 +1,9 @@
+rust-asn1-derive (0.15.5-2+pexip24u1) pexip; urgency=medium
+
+  * New upstream release
+
+ -- Huw Jones <huw@pexip.com>  Tue, 21 May 2024 10:49:05 +0100
+
 rust-asn1-derive (0.15.5-2) unstable; urgency=medium
 
   * Team upload.
