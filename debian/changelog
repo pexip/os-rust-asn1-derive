@@ -1,3 +1,9 @@
+rust-asn1-derive (0.15.5-2+pexip24u2) pexip; urgency=medium
+
+  * Rebuild with rustc 1.79
+
+ -- Huw Jones <huw@pexip.com>  Wed, 10 Jul 2024 16:20:35 +0100
+
 rust-asn1-derive (0.15.5-2+pexip24u1) pexip; urgency=medium
 
   * New upstream release
