@@ -1,0 +1,38 @@
+Source: rust-asn1-derive
+Section: rust
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+ dh-sequence-cargo
+Build-Depends-Arch: cargo:native <!nocheck>,
+ rustc:native (>= 1.83.0) <!nocheck>,
+ libstd-rust-dev <!nocheck>,
+ librust-proc-macro2-1+default-dev (>= 1.0.69-~~) <!nocheck>,
+ librust-quote-1+default-dev (>= 1.0.28-~~) <!nocheck>,
+ librust-syn-2+default-dev (>= 2.0.21-~~) <!nocheck>
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders:
+ Claudius Heine <ch@denx.de>
+Standards-Version: 4.7.2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/asn1-derive]
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/asn1-derive
+Homepage: https://github.com/alex/rust-asn1
+X-Cargo-Crate: asn1_derive
+
+Package: librust-asn1-derive-dev
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends},
+ librust-proc-macro2-1+default-dev (>= 1.0.69-~~),
+ librust-quote-1+default-dev (>= 1.0.28-~~),
+ librust-syn-2+default-dev (>= 2.0.21-~~)
+Provides:
+ librust-asn1-derive+default-dev (= ${binary:Version}),
+ librust-asn1-derive-0-dev (= ${binary:Version}),
+ librust-asn1-derive-0+default-dev (= ${binary:Version}),
+ librust-asn1-derive-0.23-dev (= ${binary:Version}),
+ librust-asn1-derive-0.23+default-dev (= ${binary:Version}),
+ librust-asn1-derive-0.23.0-dev (= ${binary:Version}),
+ librust-asn1-derive-0.23.0+default-dev (= ${binary:Version})
+Description: #[derive] support for asn1 - Rust source code
+ Source code for Debianized Rust crate "asn1_derive"
