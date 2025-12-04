@@ -1,3 +1,9 @@
+rust-asn1-derive (0.23.0-2+pexip25u2) pexip-trixie; urgency=medium
+
+  * Trixie build for product distribution
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 04 Dec 2025 13:58:56 +0000
+
 rust-asn1-derive (0.23.0-2+pexip25u1) pexip-trixie; urgency=medium
 
   * Update to 0.23.0
